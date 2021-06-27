@@ -26,6 +26,8 @@
 
 */
 
+//modified for internal purposes
+
 // polyfills
 if (typeof Object.assign != 'function') {
   // Must be writable: true, enumerable: false, configurable: true
@@ -910,4 +912,3 @@ var definePinchZoom = function () {
 
 var PinchZoom = definePinchZoom();
 
-export default PinchZoom;
